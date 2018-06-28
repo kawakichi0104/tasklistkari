@@ -21,5 +21,5 @@
             </tbody>
         </table>
     @endif
-    {!! link_to_route('messages.create', '新規メッセージの投稿') !!}
+    {!! link_to_route('messages.create', '新規メッセージの投稿', null, ['class' => 'btn btn-primary']) !!}
 @endsection
